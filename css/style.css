@@ -1,0 +1,347 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+  font-family: "Montserrat", sans-serif;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+} /* text decoration none to remove underline */
+.header{
+    
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('../img/header-image.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+}
+.container{
+    max-width: 1200px; /* max width for give particular max wavelength and width for if scrren is
+     less than 1200 then atleast that much length should be there */
+    width:80%;
+    margin: 0 auto; /* margin auto for to make paragraph in centre with changed bcoz of width */
+
+}
+h1{
+    color: white;
+}
+.header .logo, .header .nav-items a{
+    color: white;
+     
+
+}
+.navbar{
+    border: 5 px solid white;
+
+}
+
+.header .logo{
+    float: left;
+    padding-top: 1rem;
+    padding-left: 10rem;
+}
+.header .nav-items{
+    float: right;
+    margin-top: 1rem;
+}
+.header .navbar .nav-item{
+    display: inline ;
+    padding: 1rem;
+    text-overflow: uppercase;
+}
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.navbar .a:hover{
+    border-bottom: 2px solid white;
+}
+.header-content{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    text-transform: uppercase;
+}
+.header-content h1{
+    padding: 0.5em;
+} 
+ .button{
+    display:inline-block;
+    color: red;
+    font-weight: 900;
+    background-color: white;
+    text-transform: uppercase;
+    padding: 0.5em;
+    margin: 16px;
+    border-radius: 400px;
+
+}
+ /* ########################  showcase section ####################### */
+.showcase{
+    background-color: gray;
+    padding-top: 100px;
+}
+/* margin not get color or background color of it, padding get color  */
+
+ 
+ .row1{
+    border:2px;
+height: 350px;
+margin-bottom: 100px;
+ } 
+ .row2{
+    border: 2px;
+    height: 350px;
+
+ }
+ .row1 .image-box{
+    border: 2px;
+    width: 50%;
+    float: left;
+    height: 100%;
+ }
+ .row2 .image-box{
+    border: 2px;
+    width: 50%;
+    float: right;
+    height: 100%;
+ }
+ .row1 .text-box{
+    border: 2px;
+    width: 50%;
+    float: right;
+    height: 100%;
+    padding: 2rem;
+    letter-spacing: 3px;
+    background-color: white;
+ }
+ .row2 .text-box{
+    border: 2px;
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding: 2rem;
+    letter-spacing: 3px;
+    background-color: white;
+
+ }
+  .button2{
+    display: inline block;
+    border: 2px solid red;
+    border-radius: 400px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    font-weight: 500px;
+ }
+ .button2:hover{
+    color: red;
+ }
+ .image-box .image1{
+    width: 100%;
+    float: left;
+    height: 100%;
+ }
+ .image-box .image2{
+    width: 100%;
+    float: right;
+    height: 100%;
+ }
+ /* ############# section feature ################### */
+ 
+ .feature{
+    margin-top: 100px;
+
+ }
+ .box{
+    height: 200px;
+ }
+ .box .box1{
+    border: 2px rgb(168, 100, 168) solid;
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    letter-spacing: 2px;
+    padding: 3px;
+    background-color: rgb(168, 100, 168);
+    color: white;
+ }
+ .box .box2{
+    border: 2px black solid;
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    letter-spacing: 4px;
+    padding: 3px;
+    background-color: rgb(23, 15, 23);
+    color: white;
+ }
+ .box .box3{
+    border: 2px rgb(168, 100, 168) solid;
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    letter-spacing: 4px;
+    padding: 3px;
+    background-color: rgb(168, 100, 168);
+    color: white;
+
+
+
+ }
+ .box .box4{
+    clear: both;
+ }
+ h3{
+    padding: 5px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+ }
+ .footer{
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+ }
+ /* ################ about ############## */
+ .about-bar{
+   color: black;
+   background-color: white;
+   margin-top: 50px;
+   text-align: left;
+ }
+
+.nav-chart a{
+   float: right;
+   word-spacing: 40px;
+}
+.loogo{
+   color: black;
+   font-size: 30px;
+   border-bottom: 5px solid rgb(216, 110, 172);
+   text-align: left;
+   padding-bottom: 2rem;
+   padding-top: 2rem;
+}
+/* ############# wrapper ########33 */
+.wrapper{
+   margin-top: 3rem;
+   text-align: center;
+
+   
+}
+.wrapper .left{
+   float: left;
+   text-align: center;
+   padding-left: 50px;
+   width: 50%;
+
+
+}
+.wrapper .Right{
+float: right;
+text-align: center;
+padding-right: 50px;
+width: 50%;
+
+}
+.wrapper ul li{
+   padding: 4px;
+}
+.wrapper::after{
+   display: block;
+   content: ' ';
+   clear: both;
+}
+.wrapper ul li::before{
+   content: '\2713';
+   color: rgb(#e63946);
+
+   font-weight: bold;
+padding: 4px;
+
+}
+.count{
+   margin-top: 3rem;
+   text-align: center;
+}
+.count .count1{
+   float: left;
+   width: 25%;
+
+}
+.count .count2{
+   float: left;
+   width: 25%;
+
+}
+.count .count3{
+   float: left;
+   width: 25%;
+
+}
+.count .count4{
+   float: left;
+   width: 25%;
+
+}
+
+.count::after{
+   content: '';
+   clear: both;
+}
+.count span{
+   font-weight: bolder;
+   font-size: 30px;
+   color: #e63946;
+   padding-bottom: 5px;
+
+}
+.count p{
+   font-weight: 400;
+}
+  /* ######### contact me */
+  .contact {
+margin-top: 3rem;
+background-color: rgb(216, 110, 172);
+padding: 2rem;
+  }
+  .contact .cont1{
+   float: left;
+   color: white;
+   width: 60%;
+  }
+.contact cont2{
+   float: right;
+   color: white;
+   font-weight: bold;
+   width: 40%
+   
+}
+.contact a{
+   display: inline-block;
+   color: white;
+   font-weight: 600;
+   border: 4px solid white;
+   padding: 10px;
+}
+.contact a.a:hover{
+   border-bottom: 2px solid white;
+}
+ 
+ 
+    
+ 
+ 
+
